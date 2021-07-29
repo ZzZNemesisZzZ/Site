@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Dodo Pizza Beta
+</title>
+<meta charset = "utf-8">
+<link = rel = "stylesheet" type = "text/css" href = "css/delivery.css">
+</head>
+<body>
+<div id = "core">
+<div id = "list">
+<form target = "_top" action = "fin.php" method = "post">
+<input type = "hidden" name = "type" value = 1></input>
+<input type = "text" name = "0" id = "street" required placeholder = "Улица"></input>
+<input type = "text" name = "1" id = "house" required placeholder = "Дом"></input>
+<br>
+<br>
+<input type = "text" name = "2" id = "flat" required placeholder = "Квартира"></input>
+<input type = "text" name = "3" id = "enterance" required placeholder = "Подъезд"></input>
+<input type = "text" name = "4" id = "floor" required placeholder = "Этаж"></input>
+<br>
+<br>
+<input type = "text" name = "5" id = "phone_number" required placeholder = "Номер телефона"></input><br><br>
+<font id = "description">Способ оплаты</font><br>
+<input type = "radio" name = "6" id = "payment" value = "Наличные"><font id = "description" checked = "checked">Наличные</font></input><br>
+<input type = "radio" name = "6" id = "payment" value = "По карте"><font id = "description">По карте</font></input>
+<br>
+<br>
+<input type = "submit" id = "sub_button" value = "Подтвердить"></input>
+</form>
+</div>
+</div>
+</body>
+</html>
